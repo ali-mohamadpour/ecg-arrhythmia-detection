@@ -50,4 +50,15 @@ You can run the full pipeline and experiments in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ali-mohamadpour/ecg-arrhythmia-detection/blob/main/ecg_arrhythmia_detection.ipynb)
 
+##  Project Analysis and Insights
+
+This project implements a fully end-to-end ECG analysis pipeline, starting from raw ECG signals and progressing through preprocessing, heartbeat segmentation, deep learning–based classification, and model interpretability.
+
+Signal preprocessing plays a critical role in improving ECG quality by reducing noise and baseline wander, which enables more reliable heartbeat segmentation and model input preparation.
+
+Heartbeat segments are extracted around detected cardiac cycles and normalized to a fixed length to ensure consistency across samples when fed into the convolutional neural network.
+
+To improve transparency and trustworthiness, Grad-CAM is employed to visualize which regions of the ECG signal contribute most to the model’s predictions. The resulting visualizations indicate that the model focuses on clinically meaningful regions, such as the QRS complex, rather than noise-dominated areas.
+
+This implementation is designed for research and educational purposes and demonstrates how deep learning models can be combined with signal processing and interpretability techniques for ECG analysis.
 
