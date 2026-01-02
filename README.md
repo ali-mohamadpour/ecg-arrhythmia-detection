@@ -22,32 +22,24 @@
  ##  Results and Analysis 
 
  ### Raw ECG Signal 
- ![Raw ECG Signal](images/raw_ecg_signal.png )
- The raw ECG signal contains baseline wander and high-frequency noise, which can negatively affect downstream analysis. 
+ ![Raw ECG Signal](IMG/raw_ecg_signal.png )
+
 
  ### Cleaned ECG Signal 
- ![Cleaned ECG Signal](images/cleaned_ecg_signal.png )
- After preprocessing, the ECG waveform becomes significantly clearer, allowing more reliable heartbeat segmentation. 
+ ![Cleaned ECG Signal](IMG/cleaned_ecg_signal.png )
 
  ### Multiple Heartbeat Segments 
- ![Multiple Heartbeats](images/multiple_heartbeats.png )
- This visualization shows several extracted ECG heartbeats, confirming consistent segmentation across different cardiac cycles. 
+ ![Multiple Heartbeats](IMG/multiple_heartbeats.png )
 
  ### Single Heartbeat Segment 
- ![Single Heartbeat](images/single_heartbeat.png )
- A single heartbeat segment is visualized to illustrate the fixed-length input provided to the neural network model. 
+ ![Single Heartbeat](IMG/single_heartbeat.png )
 
  ### ECG Beat with Grad-CAM 
- ![GradCAM ECG Beat](images/gradcam_ecg_beat.png )
- Grad-CAM highlights the regions of the ECG beat that contribute most to the model’s prediction, providing interpretability. 
+ ![GradCAM ECG Beat](IMG/gradcam_ecg_beat.png ) 
 
- ### Grad-CAM – Normal Beat 
- ![GradCAM Normal](images/gradcam_normal.png )
- For normal heartbeats, the model primarily focuses on the QRS complex, which is clinically relevant. 
+ ### Grad-CAM – Normal Beat – Arrhythmic Beat 
+ ![GradCAM Normal](IMG/gradcam_normal_arrhythmia.png )
 
- ### Grad-CAM – Arrhythmic Beat 
- ![GradCAM Arrhythmia](images/gradcam_arrhythmia.png )
- For arrhythmic beats, Grad-CAM reveals different attention patterns, indicating that the model captures abnormal signal characteristics. 
 
  ##  Model Interpretation 
  The Grad-CAM visualizations demonstrate that the model bases its decisions on meaningful ECG regions rather than noise. 
