@@ -56,5 +56,5 @@
 ## Run Online (Colab)
 You can run the full pipeline and experiments in Google Colab:
 
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/ali-mohamadpour/ecg-arrhythmia-detection/blob/main/ecg_arrhythmia_detection.ipynb)
+ [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) (https://colab.research.google.com/github/ali-mohamadpour/ecg-arrhythmia-detection/blob/main/ecg_arrhythmia_detection.ipynb)
 
